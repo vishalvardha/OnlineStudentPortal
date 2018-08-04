@@ -1,0 +1,46 @@
+create database student;
+use student;
+create table register(student_id varchar(50) primary key,
+student_name varchar(50),
+course_name varchar(50),
+bdate date,
+gender varchar(7),
+contact_no varchar(12),
+email varchar(50),
+address varchar(100),
+username varchar(50),
+password varchar(50),
+access varchar(20),
+security varchar(5));
+
+create table ProfessorRegister(professor_id varchar(50) primary key,
+professor_name varchar(50),
+course_name varchar(50),
+contact_no varchar(12),
+email varchar(50),
+username varchar(50),
+password varchar(50),
+usertype varchar(20));
+
+create table makeclass(class_topic varchar(50),
+course varchar(50),
+class_time timestamp,
+description varchar(500),
+professor varchar(50));
+
+create table updateclass(professor varchar(50),
+class_topic varchar(50),
+class_time timestamp,
+material_name varchar(50),
+material_data longblob);
+
+create table registerclass(username varchar(50),
+class_topic varchar(500),
+approve_status varchar(25),
+comments varchar(200));
+
+create table appointment(username varchar(50),
+professor varchar(50),
+appointment_time timestamp,
+description varchar(300));
+
