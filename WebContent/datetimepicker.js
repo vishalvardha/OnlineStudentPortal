@@ -1,14 +1,3 @@
-//Javascript name: My Date Time Picker
-//Date created: 16-Nov-2003 23:19
-//Scripter: TengYong Ng
-//Website: http://www.rainforestnet.com
-//Copyright (c) 2003 TengYong Ng
-//FileName: DateTimePicker.js
-//Version: 0.8
-//Contact: contact@rainforestnet.com
-// Note: Permission given to use this script in ANY kind of applications if
-//       header lines are left unchanged.
-
 //Global variables
 var winCal;
 var dtToday=new Date();
